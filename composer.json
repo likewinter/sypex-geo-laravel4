@@ -1,0 +1,23 @@
+{
+    "name": "likewinter/sypex-geo-laravel4",
+    "description": "Sypec Geo for Laravel 4",
+    "authors": [
+        {
+            "name": "Anton Orlov",
+            "email": "mr.antoni@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Likewinter\\SypexGeoLaravel4\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
