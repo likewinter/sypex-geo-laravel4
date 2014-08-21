@@ -2,6 +2,7 @@
     "name": "likewinter/sypex-geo-laravel4",
     "type": "laravel-package",
     "license": "MIT",
+    "keywords": ["laravel", "geoip", "location", "geo", "sypex"],
     "description": "Sypex Geo library realization for Laravel 4",
     "authors": [
         {
