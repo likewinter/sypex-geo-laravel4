@@ -1,6 +1,8 @@
 {
     "name": "likewinter/sypex-geo-laravel4",
-    "description": "Sypec Geo for Laravel 4",
+    "type": "laravel-package",
+    "license": "MIT",
+    "description": "Sypex Geo library realization for Laravel 4",
     "authors": [
         {
             "name": "Anton Orlov",
@@ -12,12 +14,8 @@
         "illuminate/support": "4.2.*"
     },
     "autoload": {
-        "classmap": [
-            "src/migrations"
-        ],
         "psr-0": {
             "Likewinter\\SypexGeoLaravel4\\": "src/"
         }
-    },
-    "minimum-stability": "stable"
+    }
 }
