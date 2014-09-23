@@ -36,12 +36,17 @@ class SypexGeo
 
     public function country()
     {
-        return $this->sxGeoInstance->get($this->getIp())['country'];
+        return $this->full()['country'];
     }
 
     public function city()
     {
-        return $this->sxGeoInstance->get($this->getIp())['city'];
+        return $this->full()['city'];
+    }
+
+    public function timezone()
+    {
+        return $this->full()['timezone'];
     }
 
     public function full()
